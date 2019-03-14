@@ -1,0 +1,13 @@
+$break-md: 640px;
+
+#story-detail-back-to-list-btn {
+  margin-bottom: 24px;
+}
+
+#story-detail-container {
+  width: 100%;
+  @media screen and (max-width: $break-md) {
+    width: 100%;
+  }
+  margin: auto;
+}

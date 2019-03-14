@@ -1,0 +1,19 @@
+$break-md: 640px;
+
+#status-container {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  @media screen and (max-width: $break-md) {
+    flex-direction: column;
+  }
+
+  margin-bottom: 24px;
+
+  .status-btn {
+    pointer-events: none;
+    @media screen and (max-width: $break-md) {
+      margin: 4px 0;
+    }
+  }
+}

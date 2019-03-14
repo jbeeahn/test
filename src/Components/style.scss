@@ -1,0 +1,17 @@
+$break-md: 640px;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app-container {
+  width: 80%;
+  height: 100vh;
+  @media screen and (max-width: $break-md) {
+    width: 95%;
+  }
+  margin: 40px auto;
+  font-family: "Roboto";
+}
